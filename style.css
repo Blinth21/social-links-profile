@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card{
+    color: white;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.card .profile{
+    margin-bottom: 25px;
+}
+
+.card .profile img{
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.card .profile h1{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.card .profile h3{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+.card p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.accountbtn a{
+    display: block;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.accountbtn a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    transition: 200ms;
+}
+
+.accountbtn a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a {
+    color: hsl(75, 94%, 57%); 
+    text-decoration: none;
+}
+.attribution a:hover{
+    text-decoration: underline;
+}
